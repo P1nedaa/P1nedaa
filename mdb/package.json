@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "faker": "^5.5.3",
+    "mongodb": "^5.5.0"
+  }
+}
