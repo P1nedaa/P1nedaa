@@ -2,7 +2,7 @@ const { MongoClient } = require('mongodb');
 
 const faker = require('faker');
 
-const url = 'mongodb+srv://juanpineda:1@cluster0.gvnh0n1.mongodb.net/?retryWrites=true&w=majority';
+const url = 'mongodb+srv://juanpineda:11@cluster0.gvnh0n1.mongodb.net/?retryWrites=true&w=majority';
 
 async function crearColeccion() {
   const cliente = new MongoClient(url);
